@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0181-employees-earning-more-than-their-managers](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0181-employees-earning-more-than-their-managers) |
 | [0182-duplicate-emails](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0182-duplicate-emails) |
 | [0183-customers-who-never-order](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0183-customers-who-never-order) |
+| [0584-find-customer-referee](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0595-big-countries) |
 | [0607-sales-person](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0607-sales-person) |
 | [0620-not-boring-movies](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0620-not-boring-movies) |
