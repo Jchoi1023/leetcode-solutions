@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1301-reformat-department-table](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1301-reformat-department-table) |
 | [1317-monthly-transactions-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1317-monthly-transactions-i) |
 | [1541-top-travellers](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1541-top-travellers) |
+| [1625-group-sold-products-by-the-date](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1625-group-sold-products-by-the-date) |
 | [1664-find-users-with-valid-e-mails](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1664-find-users-with-valid-e-mails) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1827-invalid-tweets](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1827-invalid-tweets) |
