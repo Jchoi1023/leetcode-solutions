@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0620-not-boring-movies](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0620-not-boring-movies) |
 | [0627-swap-sex-of-employees](https://github.com/Jchoi1023/leetcode-solutions/tree/master/0627-swap-sex-of-employees) |
 | [1075-project-employees-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1075-project-employees-i) |
+| [1084-sales-analysis-iii](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1084-sales-analysis-iii) |
 | [1153-product-sales-analysis-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1153-product-sales-analysis-i) |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1258-article-views-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1258-article-views-i) |
