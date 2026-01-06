@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1251-average-selling-price](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1251-average-selling-price) |
 | [1258-article-views-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1258-article-views-i) |
+| [1280-students-and-examinations](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1280-students-and-examinations) |
 | [1292-immediate-food-delivery-ii](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1292-immediate-food-delivery-ii) |
 | [1301-reformat-department-table](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1301-reformat-department-table) |
 | [1317-monthly-transactions-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1317-monthly-transactions-i) |
