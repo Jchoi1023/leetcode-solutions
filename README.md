@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1541-top-travellers](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1541-top-travellers) |
 | [1587-bank-account-summary-ii](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1587-bank-account-summary-ii) |
 | [1625-group-sold-products-by-the-date](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1625-group-sold-products-by-the-date) |
+| [1633-percentage-of-users-attended-a-contest](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1633-percentage-of-users-attended-a-contest) |
 | [1664-find-users-with-valid-e-mails](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1664-find-users-with-valid-e-mails) |
 | [1670-patients-with-a-condition](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1670-patients-with-a-condition) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
