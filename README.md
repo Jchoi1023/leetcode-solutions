@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-fix-names-in-a-table](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1667-fix-names-in-a-table) |
 | [1670-patients-with-a-condition](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1670-patients-with-a-condition) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
+| [1729-find-followers-count](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1729-find-followers-count) |
 | [1827-invalid-tweets](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1827-invalid-tweets) |
 | [1837-daily-leads-and-partners](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1837-daily-leads-and-partners) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1908-recyclable-and-low-fat-products) |
