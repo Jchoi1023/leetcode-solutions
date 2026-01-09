@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
 | [1741-find-total-time-spent-by-each-employee](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1741-find-total-time-spent-by-each-employee) |
 | [1789-primary-department-for-each-employee](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1789-primary-department-for-each-employee) |
+| [1795-rearrange-products-table](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1795-rearrange-products-table) |
 | [1827-invalid-tweets](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1827-invalid-tweets) |
 | [1837-daily-leads-and-partners](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1837-daily-leads-and-partners) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1908-recyclable-and-low-fat-products) |
