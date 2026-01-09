@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1827-invalid-tweets](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1827-invalid-tweets) |
 | [1837-daily-leads-and-partners](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1837-daily-leads-and-partners) |
 | [1873-calculate-special-bonus](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1873-calculate-special-bonus) |
+| [1890-the-latest-login-in-2020](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1890-the-latest-login-in-2020) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/Jchoi1023/leetcode-solutions/tree/master/2087-confirmation-rate) |
 ## Array
