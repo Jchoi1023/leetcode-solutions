@@ -1,4 +1,9 @@
 # Write your MySQL query statement below
-SELECT MAX(salary) AS SecondHighestSalary
-FROM Employee
-WHERE salary < (SELECT MAX(salary) FROM Employee);
+select max(salary) as SecondHighestSalary
+from 
+(
+    select salary,
+    dense_rank() over(order by salary desc) as rnk
+    from employee
+) t
+where rnk = 2
