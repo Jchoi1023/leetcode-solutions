@@ -2,7 +2,7 @@ CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   RETURN (
       # Write your MySQL query statement below.
-    select max(salary) as getNthHighestSalary
+    select max(salary)
     from
     (
         select salary,
