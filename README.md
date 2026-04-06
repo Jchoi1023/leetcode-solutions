@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1664-find-users-with-valid-e-mails](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1664-find-users-with-valid-e-mails) |
 | [1667-fix-names-in-a-table](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1667-fix-names-in-a-table) |
 | [1670-patients-with-a-condition](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1670-patients-with-a-condition) |
+| [1683-invalid-tweets](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1683-invalid-tweets) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1729-find-followers-count](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1729-find-followers-count) |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
