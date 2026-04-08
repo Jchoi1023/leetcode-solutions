@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1084-sales-analysis-iii](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1084-sales-analysis-iii) |
 | [1148-article-views-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1148-article-views-i) |
 | [1153-product-sales-analysis-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1153-product-sales-analysis-i) |
+| [1193-monthly-transactions-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1193-monthly-transactions-i) |
 | [1211-queries-quality-and-percentage](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1211-queries-quality-and-percentage) |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1251-average-selling-price](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1251-average-selling-price) |
