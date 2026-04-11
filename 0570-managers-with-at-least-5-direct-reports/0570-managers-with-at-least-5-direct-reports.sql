@@ -1,11 +1,9 @@
 # Write your MySQL query statement below
-with count_emp as (
-select e1.id, e1.name as name,  count(e2.id) as cnt
+select e1.name
 from employee e1
 left join employee e2 on e1.id = e2.managerid
-group by e1.id, e1.name
-)
+WHERE e2.managerid IS NOT NULL
+GROUP BY e1.id, e1.name
+HAVING COUNT(e2.id) >= 5;
 
-select name 
-from count_emp
-where cnt >= 5
+
