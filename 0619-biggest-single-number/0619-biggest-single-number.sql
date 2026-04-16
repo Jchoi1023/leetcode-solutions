@@ -1,10 +1,9 @@
 # Write your MySQL query statement below
-select max(num) as num from 
-(
-    select num
+with cnt as (
+    select num, count(num) as countnumber
     from mynumbers
     group by num
-    having count(*)  = 1
-    
-)t;
+)
 
+select max(num) as num from cnt
+where countnumber = 1;
