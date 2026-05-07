@@ -1,4 +1,11 @@
 # Write your MySQL query statement below
-select u.unique_id, e.name
-from employees e
-left join employeeUNI u on e.id = u.id
+
+# unique ID/ show null
+
+
+select 
+uni.unique_id, 
+emp.name
+from employees as emp
+left join employeeuni as uni on emp.id = uni.id;
+
