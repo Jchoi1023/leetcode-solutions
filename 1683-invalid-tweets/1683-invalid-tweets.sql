@@ -5,7 +5,7 @@
 
 -- Length, Replace
 
-
-select tweet_id
+select 
+    tweet_id
 from tweets
 where length(replace(content, ' ', '')) > 15
