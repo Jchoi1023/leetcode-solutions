@@ -4,8 +4,6 @@
 # Do I need to sorting the output?
 
 select 
-p.product_name, 
-s.year, 
-s.price
-from sales as s
-left join product as p on s.product_id = p.product_id
+    p.product_name, s.year, s.price
+from sales s 
+left join product p on s.product_id = p.product_id
