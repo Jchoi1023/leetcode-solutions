@@ -1,29 +1,18 @@
 # Write your MySQL query statement below
--- all the authors that viewed at least one of their articles.
--- sorting id asc
-
--- author_id == viewer_id 
--- count(article_id) >= 1
-
--- we cannot use aggregate function with where, because filters rows happens before 
--- aggregate function so I create WITH 
+# filter author_id = viewer_id 
+# count >= 1
 
 WITH cnt as (
     select 
-        distinct author_id as id, 
-        author_id, 
-        viewer_id,
-        count(author_id) as count_article
+    author_id as id,
+    count(author_id) as cnt
     from views
     where author_id = viewer_id
     group by author_id, viewer_id
 )
 
 select 
-id
+    id
 from cnt
-where count_article >= 1
+where cnt >= 1
 order by id asc;
-
-
-
