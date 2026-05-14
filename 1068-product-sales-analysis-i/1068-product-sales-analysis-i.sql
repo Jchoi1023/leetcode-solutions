@@ -1,9 +1,8 @@
 # Write your MySQL query statement below
 
-# can quantity or price be NULL?
-# Do I need to sorting the output?
-
-select 
-    p.product_name, s.year, s.price
+select
+    p.product_name,
+    s.year,
+    s.price
 from sales s 
-left join product p on s.product_id = p.product_id
+left join product p on p.product_id = s.product_id
