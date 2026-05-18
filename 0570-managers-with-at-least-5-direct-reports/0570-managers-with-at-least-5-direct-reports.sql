@@ -1,9 +1,14 @@
 # Write your MySQL query statement below
-select e1.name
+
+# managers with at least five direct reports
+# any order
+
+with cnt as(
+    select e1.id, e1.name as name, count(e2.id) as count
 from employee e1
-left join employee e2 on e1.id = e2.managerid
-WHERE e2.managerid IS NOT NULL
-GROUP BY e1.id, e1.name
-HAVING COUNT(e2.id) >= 5;
-
-
+join employee e2 on e1.id = e2.managerId
+group by e2.managerid
+)
+select name 
+from cnt
+where count >= 5
