@@ -1,6 +1,9 @@
 # Write your MySQL query statement below
+
+
+# odd-numbered ID / not "boring"
+
 select * 
 from cinema
-where description != "boring"
-and id % 2 = 1
+where id%2 = 1 and description <> 'boring'
 order by rating desc
