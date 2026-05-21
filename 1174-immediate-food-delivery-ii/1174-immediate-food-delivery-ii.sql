@@ -1,11 +1,22 @@
 # Write your MySQL query statement below
-select 
-round(SUM(case 
-        when order_date = customer_pref_delivery_date then 1 else 0 end)/count(delivery_id)*100,2)
-as immediate_percentage
-from delivery d
-where order_date = (
-    select MIN(order_date)
-    from delivery
-    where d.customer_id = customer_id
-)
+
+# pref data = order date -> immediate
+# otherwise -> scheduled
+# first order -> one first order
+# find the percentage of immediate orders in the first orders of all customers
+SELECT 
+    ROUND(
+        COUNT(*) * 100.0 / (SELECT COUNT(DISTINCT customer_id) FROM Delivery),
+        2
+    ) AS immediate_percentage
+FROM (
+    SELECT *,
+           ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY order_date) AS rn
+    FROM Delivery
+) t
+WHERE rn = 1
+  AND order_date = customer_pref_delivery_date;
+
+
+
+
