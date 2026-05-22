@@ -1,19 +1,21 @@
 # Write your MySQL query statement below
-# fraction = player logged in again on the day after the day they first logged in
-# divide it by the number of total players
-with first_order as
+
+# count the number of total players
+# logged in again on the day after the day first logged in -> fraction
+with cnt as
 (
-SELECT *
-FROM (
-    SELECT *, 
-           ROW_NUMBER() OVER (PARTITION BY player_id ORDER BY event_date) AS rn 
-    FROM activity
-) t
-WHERE rn = 1
+select count(distinct t.player_id) as cnt
+from
+(
+select a2.player_id, row_number() over (partition by a1.player_id order by a1.event_date) as rn
+from activity a1
+left join activity a2 on DATE_ADD(a1.event_date, interval 1 day) = a2.event_date 
+and a1.player_id = a2.player_id
+)t
+where rn =1
+
 )
 
-select  round(count(a.event_date) /count(f.event_date),2) as fraction
-from first_order f 
-left join activity a 
-ON DATE_ADD(f.event_date, INTERVAL 1 DAY) = a.event_date
-and f.player_id = a.player_id
+select round((select cnt from cnt)/count(distinct player_id),2) as fraction
+from activity
+
