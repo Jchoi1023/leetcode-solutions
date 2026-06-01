@@ -1,12 +1,11 @@
 # Write your MySQL query statement below
 
--- With num_of_product as (
---     select count(distinct product_key) as num
---     from product
--- )
+with cte as (
+    select count(product_key) as cnt
+    from product
+)
 
-select customer_id
+select customer_id 
 from customer
 group by customer_id
-having (select count(distinct product_key) as num
-    from product) = count(distinct product_key)
+having count( distinct product_key) = (select cnt from cte)
