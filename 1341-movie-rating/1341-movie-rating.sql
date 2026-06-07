@@ -1,39 +1,34 @@
 # Write your MySQL query statement below
 
-# user who has rated the greatest number of movies,
-# moview highest average rating in February 2020
+# need to find the user who has rated the greatest number of movies
+# need to fine movie name with the highest average rating in February 2020
+
+# first, I need to join the tables.
 with cte as (
-select m.movie_id,
-    m.title, 
-    u.user_id, 
-    u.name, 
-    -- mr.movie_id,
-    -- mr.user_id,
-    mr.rating,
-    mr.created_at
+select m.movie_id, m.title, u.user_id, u.name,
+mr.rating, mr.created_at
 from movies m
-left join movierating mr on mr.movie_id = m.movie_id
+left join movierating mr on m.movie_id = mr.movie_id
 left join users u on u.user_id = mr.user_id
 ),
 
-user_result AS (
-    SELECT name AS results
-    FROM cte
-    GROUP BY user_id, name
-    ORDER BY COUNT(*) DESC, name
-    LIMIT 1
+user_result as (
+select name as results
+from cte
+group by user_id
+order by count(movie_id) desc, name asc
+limit 1
 ),
 
 movie_result as (
     select title as results
     from cte
-    WHERE created_at >= '2020-02-01'
-    AND created_at < '2020-03-01'
-    GROUP BY movie_id, title
-    ORDER BY AVG(rating) DESC, title
-    LIMIT 1
+    where created_at between '2020-02-01' and '2020-02-29'
+    group by movie_id
+    order by avg(rating) desc, title asc
+    limit 1
 )
 
-SELECT results FROM user_result
+select results from user_result
 UNION ALL
-SELECT results FROM movie_result;
+select results from movie_result
