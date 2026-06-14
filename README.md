@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1341-movie-rating](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1341-movie-rating) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1484-group-sold-products-by-the-date](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1484-group-sold-products-by-the-date) |
+| [1517-find-users-with-valid-e-mails](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1517-find-users-with-valid-e-mails) |
 | [1527-patients-with-a-condition](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1527-patients-with-a-condition) |
 | [1541-top-travellers](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1541-top-travellers) |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Jchoi1023/leetcode-solutions/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
