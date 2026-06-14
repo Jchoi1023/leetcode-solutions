@@ -1,9 +1,17 @@
 # Write your MySQL query statement below
-select department, employee, salary
-from (
-    select d.name as department, e.name as employee, e.salary as salary,
-    dense_rank() over(partition by d.id order by e.salary desc) as rnk
-    from employee e
+
+with cte as (
+    select e.id, e.name as Employee, e.salary as Salary, d.name as Department
+    from employee e 
     left join department d on e.departmentid = d.id
-)t
-where rnk <= 3
+),
+rolling as(
+select Department, Employee, Salary,
+dense_Rank() over (partition by Department order by Salary desc) as rn
+from cte
+)
+
+select Department, Employee, Salary
+from rolling
+where rn >= 1 and rn <= 3 
+
