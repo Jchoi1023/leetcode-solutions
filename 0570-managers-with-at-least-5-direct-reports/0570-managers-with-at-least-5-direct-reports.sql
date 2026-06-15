@@ -1,9 +1,9 @@
 # Write your MySQL query statement below
 
-# five direct reports
-
-select e1.name
+select 
+e2.name
 from employee e1
-left join employee e2 on e1.id = e2.managerId
-group by e1.id
-having count(e1.id) >= 5
+join employee e2 on e1.managerId = e2.id
+group by e1.managerID
+having count(*) >= 5
+
