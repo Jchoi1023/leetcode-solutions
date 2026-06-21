@@ -1,14 +1,16 @@
 # Write your MySQL query statement below
-# window funciton allows me to calculate across related rows, while keeping 
-# original rows in the result set.
-# sum
+
+# I need to use window function, sum() over()
+# I need to get culumate sum and which isn't over 1000 kg.
+
 with cte as (
-select *,
-SUM(weight) over (order by turn) as Total_Weight
-from queue
+    select person_name, weight, turn,
+    sum(weight) over(order by turn) as total_weight
+    from queue
 )
+
 select person_name
 from cte
-where Total_weight <= 1000
-order by Total_weight desc
+where total_weight <= 1000
+order by total_weight desc
 limit 1
